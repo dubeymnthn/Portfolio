@@ -5,10 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="assets/css/styles.css">
-
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons">Portfolio icons created by Freepik - Flaticon</a>
+       
         <title>Manthan Dubey</title>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
         </script>
@@ -230,10 +230,11 @@
 
                 <div class="contact__container bd-grid">
                     <form action="" class="contact__form">
-                        <input type="text" id="fullname" placeholder="Name" class="contact__input">
+                        <label>Enter Your Details:-</label>
+                                                    <input type="text" id="fullname" placeholder="Name" class="contact__input">
                         <input type="mail" id="email" placeholder="Email" class="contact__input">
                         <textarea placeholder="Enter Your Message" id="message" cols="0" rows="5" class="contact__input"></textarea>
-                        <input type="button" onclick="SendMail()" value="Submit" class="contact__button button">
+                        <input type="button" method ="post" onsubmit="SendMail()" value="Submit" class="contact__button button">
                     </form>
                 </div>
             </section>
